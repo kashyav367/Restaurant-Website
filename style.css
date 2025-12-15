@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height : 200%;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:  center ;  
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+.nav-left{
+  display: flex;
+  flex:1;
+  align-items: center;
+}
+
+.nav-center{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nav-right{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.nav-center a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 800;
+}
+
+.nav-right a{
+    text-decoration: none;
+    font-weight: 900;
+    color:#000;
+}
+
+.logo-text{
+  margin: 0;                 
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  color: #000;
+  line-height: 1;
+}
+
+.nav-center a:hover{
+  color: red;
+}
+
+.nav-right a:hover{
+    color:red;
+}
+
+.container{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 120px;
+}
+
+.hero-content{
+   max-width: 620px;
+}
+
+.hero-content h1{
+    font-size: 5.9rem;
+    line-height: 1;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    margin-bottom: 28px;  
+    font-weight: 700;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    gap:18px;
+}
+
+.search-box input{
+   width : 280px;
+   font-size: 15px;
+   border:none;
+   outline:none;
+   border-radius: 10px;
+   padding: 14px 18px;
+}
+
+.search-box button{
+    font-size: 14px;
+    background: #ff8c00;
+     color: #fff;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    padding: 12px 22px;
+    cursor : pointer;
+}
+
