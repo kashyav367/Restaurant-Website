@@ -31,6 +31,7 @@ header{
   display: flex;
   flex:1;
   align-items: center;
+  padding-left: 30px;
 }
 
 .nav-center{
@@ -124,3 +125,76 @@ header{
     cursor : pointer;
 }
 
+
+.about-us{
+  background: #f3f3f3;
+  padding: 80px 0;
+}
+
+
+.about-container{
+  display: flex;
+  gap: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: flex-start;  
+}
+
+
+.restaurant{
+  flex: 1.2;                 
+}
+
+.restaurant img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.about-content{
+  flex: 0.8;
+  max-width: 520px;          /
+}
+
+.about-content h4{
+  color: #ff8a00;
+  letter-spacing: 2px;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+
+.about-content h1{
+  font-size: 56px;
+  line-height: 1.1;
+  margin-bottom: 19px;
+}
+
+.about-content p{
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.about-btn{
+  display: inline-flex;
+  align-items: center;
+  border-radius: 35px;
+  overflow: hidden;
+  text-decoration: none;
+  margin-top: 22px;
+}
+
+.btn-text{
+  background: #ff8a00;
+  color: #fff;
+  padding: 14px 26px;
+  font-size: 16px;
+}
+
+.btn-arrow{
+  background: #ffb04a;
+  color: #fff;
+  padding: 14px 18px;
+  font-size: 17px;
+}
